@@ -27,3 +27,5 @@ from sklearn.metrics import classification_report,confusion_matrix,accuracy_scor
 import os
 import warnings
 warnings.filterwarnings('ignore')
+
+nltk.download('stopwords')
