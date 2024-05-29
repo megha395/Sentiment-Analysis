@@ -30,15 +30,15 @@ This repository contains a sentiment analysis project using a Logistic Regressio
 ### Running the Project
 1. Data Preprocessing:
 Run the data_preprocessing.py script to preprocess the data.
- *    *   *python data_preprocessing.py*
+      * *python data_preprocessing.py*
 
 2. Feature Extraction:
 Run the feature_extraction.py script to extract features using BoW and TF*IDF.
- *    *   *python feature_extraction.py*
+      * *python feature_extraction.py*
 
 3. Model Training:
 Run the model.py script to train the Logistic Regression model.
- *    *   *python model.py*
+      * *python model.py*
 
 4. Evaluation:
 Open the evaluation.ipynb notebook to evaluate the model's performance. This notebook includes:
