@@ -21,7 +21,7 @@ This repository contains a sentiment analysis project using a Logistic Regressio
 
   - *git clone https://github.com/yourusername/SENTIMENT-ANALYSIS.git*
 
-  - *cd SENTIMENT*ANALYSIS*
+  - *cd SENTIMENT-ANALYSIS*
 
 
 2. Install the required packages:
