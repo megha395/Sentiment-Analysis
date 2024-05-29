@@ -45,7 +45,6 @@ def denoise_text(text):
 imdb_data['review']=imdb_data['review'].apply(denoise_text)
 
 
-
 ### Stopwords Removal
 def remove_stopwords(text, is_lower_case=False):
     tokens = tokenizer.tokenize(text)
@@ -58,25 +57,4 @@ def remove_stopwords(text, is_lower_case=False):
     return filtered_text
 
 imdb_data['review']=imdb_data['review'].apply(remove_stopwords)
-
-
-
-## Data Normalization
-norm_train_reviews=imdb_data.review[:40000]
-norm_test_reviews=imdb_data.review[40000:]
-
-
-
-### Bag of words
-#Count vectorizer for bag of words
-cv=CountVectorizer(min_df=0,max_df=1,binary=False,ngram_range=(1,3))
-#transformed train and test reviews
-cv_train_reviews=cv.fit_transform(norm_train_reviews)
-cv_test_reviews=cv.transform(norm_test_reviews)
-
-print('BOW_cv_train:',cv_train_reviews.shape)
-print('BOW_cv_test:',cv_test_reviews.shape)
-#vocab=cv.get_feature_names()-toget feature names
-
-##### https://www.kaggle.com/code/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews/notebook
 
