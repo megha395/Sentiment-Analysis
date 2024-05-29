@@ -37,6 +37,3 @@ test_sentiments=sentiment_data[40000:]
 print(f"Train Sentiment data is: {train_sentiments}")
 print(f"Test Sentiment data is: {test_sentiments}")
 
-
-
-##### https://www.kaggle.com/code/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews/notebook
