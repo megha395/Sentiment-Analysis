@@ -24,8 +24,7 @@ This repository contains a sentiment analysis project using a Logistic Regressio
 
 
 2. Install the required packages:
-
- *    * pip install *r requirements.txt
+      * *pip install -r requirements.txt*
 
 ### Running the Project
 1. Data Preprocessing:
